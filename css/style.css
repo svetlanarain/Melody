@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box; /* чтобы все правильно считало*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #635854;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-bottom: 4px solid #3596f5;
+}
+.navbar {
+  max-width: 1280px;
+  margin: auto;
+  display: flex; /* гибкий блок */
+  justify-content: space-between; /* элементы по краям */
+  align-items: center; /* в одну линию */
+}
+.navbar-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+.navbar-item {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.navbarlink {
+  text-decoration: none;
+  color: white;
+}
+.navbar-contacts {
+  text-align: right;
+}
+
+.navbar-text {
+  display: block;
+  margin-bottom: 4px;
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+}
+.navbar-phone {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}
