@@ -1,2 +1,1 @@
-# Melody
-Учебный проект Glo academy
+# MelodyУчебный проект Glo academy
